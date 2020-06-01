@@ -71,7 +71,7 @@ namespace ECommerce.Api.Products.Providers
                     return (true, result, null);
 
                  }
-                 return (true, null, "Not Found");
+                 return (false, null, "Not Found");
                 }
             catch (Exception ex)
             {
